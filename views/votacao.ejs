@@ -5,17 +5,19 @@
 <body>
     <%-include('shared/header')%>
 
-    <section class="">
+    <section class="votacao">
         <h2>Vote no seu emoji favorito.</h2>
+        
+        
+        <div class="container">
+            <% for (let votacao of votacoes){ %>
+                <div> 
+                    <img src="<%= votacao.img%>" alt= "">
+                    <h3><%= votacao.nome %></h3>
+                </div>
+           <% }%>
 
-        <img src="v1" alt="1">
-        <img src="v2" alt="2">
-        <img src="v3" alt="3">
-        <img src="v4" alt="4">
-        <img src="v5" alt="5">
-        <img src="v6" alt="6">
-        <img src="v7" alt="7">
-        <img src="v8" alt="8">
+        </div>
 
         <form action="">
             <input type="text" placeholder="Qua seu emoji favorito" name="emoji">

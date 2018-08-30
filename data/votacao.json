@@ -1,0 +1,35 @@
+[
+    {
+        "nome": "1",
+        "img": "/static/v1.jpg"
+    },
+    {
+        "nome": "2",
+        "img": "/static/v2.jpg"
+    },
+
+    {
+        "nome": "3",
+        "img": "/static/v3.jpg"
+    },
+    {
+        "nome": "4",
+        "img": "/static/v4.jpg"
+    },
+    {
+        "nome": "5",
+        "img": "/static/v5.jpg"
+    },
+    {
+        "nome": "6",
+        "img": "/static/v6.jpg"
+    },
+    {
+        "nome": "7",
+        "img": "/static/v7.jpg"
+    },
+    {
+        "nome": "8",
+        "img": "/static/v8.jpg"
+    }
+]

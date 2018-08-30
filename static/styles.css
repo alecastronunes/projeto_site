@@ -1,0 +1,33 @@
+body{
+
+    background-color: darkgray;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header div{
+    display: flex;
+    align-items:  center;
+}
+img{
+
+    width: 30px;
+    height: 30px;
+}
+
+img logo{
+   
+    width: 30px;
+    height: 30px;
+}
+
+h1{
+    position: center;
+    font-size: 48px;
+}
+
+.container{
+
+    width: 300px;
+    height: 300px;
+}
